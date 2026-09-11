@@ -6,6 +6,9 @@ MKVTagEditor is a macOS SwiftUI application for viewing, editing, creating, and 
 
 The app writes tag changes in place with `mkvpropedit`, so media streams are not remuxed during a save.
 
+### Install
+Grab the latest DMG file from the [Releases Page](<https://github.com/fkick/MKVTagEditor/releases>).
+
 ## Features
 
 - Open `.mkv` files from the toolbar, the `Open MKV File` button, or drag and drop when no file is open.
