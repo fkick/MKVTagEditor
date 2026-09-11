@@ -11,6 +11,8 @@ Grab the latest DMG file from the [Releases Page](<https://github.com/fkick/MKVT
 
 ## Features
 
+<p align="center"><img width="1000" alt="MKVTagEditor" src="images/VideoTrackTags.png" /></p>
+
 - Open `.mkv` files from the toolbar, the `Open MKV File` button, or drag and drop when no file is open.
 - Browse Global tags and each MKV track from the left `Tracks` column.
 - View and edit tag name, string value, language, and default-language state in the right inspector column.
