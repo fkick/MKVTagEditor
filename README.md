@@ -77,28 +77,6 @@ The editor is built around Matroska Global tags and Simple tags associated with 
 
 Binary tag values are detected and preserved in the model, but the inspector is optimized for string tag values.
 
-## Development
-
-Open `MKVTagEditor.xcodeproj` in Xcode and build the `MKVTagEditor` scheme.
-
-The current project configuration targets macOS 12.4. The app sandbox is disabled for the current ad hoc distribution model because the app launches user-installed command-line tools and writes selected MKV files in place. Re-enabling the sandbox would require rechecking file access, security-scoped resources, and subprocess behavior.
-
-## Distribution Notes
-
-This project is not currently configured for Mac App Store distribution. For ad hoc distribution, sign and notarize the app according to Apple's current Developer ID distribution flow, and make sure users understand that MKVToolNix is a separate dependency.
-
-Do not bundle MKVToolNix binaries unless you are prepared to comply with MKVToolNix and third-party license obligations.
-
-## Licensing Concerns
-
-The Author grants users a non-exclusive, non-transferable, revocable license to download, install, and use copies of the MKVTagEditor for personal use. See `LICENSE`
-
-MKVTagEditor currently depends on a user-installed copy of MKVToolNix instead of bundling MKVToolNix. That keeps the app distribution separate from the MKVToolNix binaries, but it does not remove the need to respect MKVToolNix's license if you later decide to redistribute those binaries with the app.
-
-MKVToolNix source packages include the GNU GPL v2 license text and project license notes. If MKVToolNix is bundled or redistributed with this app, review the MKVToolNix source package, license notices, and third-party dependency notices before shipping. Common obligations can include preserving copyright notices, providing license text, and making corresponding source code available under the applicable license terms.
-
-Matroska is an open standard, but the Matroska project also documents trademark and logo restrictions. Avoid using the Matroska name or logo in a way that implies endorsement, and review the Matroska legal pages before using project branding in marketing, packaging, or app artwork.
-
 ## References
 
 - MKVToolNix: <https://mkvtoolnix.download/>
