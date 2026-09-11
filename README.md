@@ -1,10 +1,10 @@
+<p align="center"><img width="256" height="256" alt="MKVTagEditor" src="https://github.com/user-attachments/assets/4edda010-0367-4d0b-89db-9ac67b4e4cb5" /></p>
+
 # MKVTagEditor
 
 MKVTagEditor is a macOS SwiftUI application for viewing, editing, creating, and deleting Matroska tags in `.mkv` files. It focuses on Global tags and per-track Simple tags, and it uses the MKVToolNix command-line tools to read and write Matroska tag XML.
 
 The app writes tag changes in place with `mkvpropedit`, so media streams are not remuxed during a save.
-
-> Current target: macOS 12.4 or later. 
 
 ## Features
 
